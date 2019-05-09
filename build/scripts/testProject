@@ -80,7 +80,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/my-first-gradle-0.1.0.jar:$APP_HOME/lib/joda-time-2.2.jar
+CLASSPATH=$APP_HOME/lib/my-first-gradle-0.1.0.jar:$APP_HOME/lib/joda-time-2.2.jar:$APP_HOME/lib/s2-geometry-library-java-1.0.0.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

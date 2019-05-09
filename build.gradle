@@ -13,6 +13,7 @@ targetCompatibility = 1.8
 
 dependencies{
 	compile "joda-time:joda-time:2.2"
+	compile group: 'io.sgr', name: 's2-geometry-library-java', version: '1.0.0'
 	testCompile "junit:junit:4.12"
 }
 
